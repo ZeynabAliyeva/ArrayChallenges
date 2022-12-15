@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    //1
+    // let array1 = ["Baku", "London", "Moscow"];
+    // let array2 = ["Azr", "Uk", "Ms"];
+
+    // const all = array1.concat(array2);
+    // console.log(all);
+
+    //2
+    // let array2 = [1, 2, 3, "s", "", undefined, null, 0];
+    // let selectElementArr = [];
+    // for (let i = 0; i < array2.length; i++) {
+    //   if (
+    //     array2[i] !== undefined &&
+    //     array2[i] !== null &&
+    //     array2[i] !== 0 &&
+    //     array2[i] !== ""
+    //   ) {
+    //     selectElementArr.push(array2[i]);
+    //   }
+    // }
+    // console.log(selectElementArr);
+
+    //3
+    // let a = [];
+    // function beat(say, number) {
+    //   for (let i = 0; i < say; i++) {
+    //     a.push(number);
+    //   }
+    // }
+    // beat(6, 0);
+    // console.log(a);
+
+    //4
+    // const months = ["Jan", "March", "April", "June"];
+    // months.splice(1, 0, "Feb");
+
+    // let array1 = [10, 20, 30, 40, 50]; //1 2
+    // let a = array1[1]; //20
+    // let b = array1[2]; //30
+    // array1.splice(0, -1, b);
+    // array1.splice(0, -1, a);
+    // console.log(array1);
+
+    // [(20, 30, 10, 40, 50)];
+
+    //5
+    let a = [];
+    function array_range(len, num) {
+      for (let i = len; i <= num; i++) {
+        a.push(i);
+      }
+    }
+    array_range(1, 4);
+    console.log(a);
+  </script>
+</html>
